@@ -6,7 +6,8 @@
 //  Copyright © 2016年 Fingerfive. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+#import <MAMapKit/MAMapKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

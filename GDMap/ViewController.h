@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MAMapKit/MAMapKit.h>
+#import <AMapSearchKit/AMapSearchKit.h>
 
 @interface ViewController : UIViewController
+@property (nonatomic,retain) MAMapView *mapView;
 
+@property (nonatomic,retain) MAUserLocation *currentLocation;
+@property (nonatomic,retain) AMapPOI *currentPOI;
+
+@property (nonatomic,retain) MAPointAnnotation *destinationPoint;//目标点
 
 @end
 

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,44 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //设置key
+    [[AMapServices sharedServices] setApiKey:@"d1c45dbeb3f7e117ba1fd23b4fd72289"];
+    
+    
+  //创建UIWindow
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    //设置背景色
+    _window.backgroundColor = [UIColor whiteColor];
+    //防止崩溃
+    _window.rootViewController = [[UIViewController alloc] init];
+    //关闭用户交互
+    _window.rootViewController.view.userInteractionEnabled = NO;
+
+//==================================================================================
+    //
+
+
+    UINavigationController * nav = [[UINavigationController alloc ]initWithRootViewController:[[ViewController alloc] init]];
+    
+    [_window setRootViewController:nav];
+
+
+
+
+
+
+
+
+    //设置为主窗口并显示
+    [_window makeKeyAndVisible];
+    
+    
+    
+    
+    
+    
+   
     return YES;
 }
 

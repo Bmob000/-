@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E1312AD62B33D8BA22C4073 /* libPods-GDMapUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC9C8A77C9C38859BB79FF7 /* libPods-GDMapUITests.a */; };
+		44E2382FF360A601F4AD40BF /* libPods-GDMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0700F75B7D71A9F0432DABB /* libPods-GDMap.a */; };
+		67C610B2828EC3F59517E438 /* libPods-GDMapTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD28AD54C680E8CA8AE7272 /* libPods-GDMapTests.a */; };
+		C55787DB1D479F0800DB67D6 /* MapSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C55787D91D479F0800DB67D6 /* MapSearchViewController.m */; };
+		C55787DC1D479F0800DB67D6 /* MapSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C55787DA1D479F0800DB67D6 /* MapSearchViewController.xib */; };
 		C5867FB01D47028A00C1731D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5867FAF1D47028A00C1731D /* main.m */; };
 		C5867FB31D47028A00C1731D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5867FB21D47028A00C1731D /* AppDelegate.m */; };
 		C5867FB61D47028A00C1731D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5867FB51D47028A00C1731D /* ViewController.m */; };
@@ -15,6 +20,8 @@
 		C5867FBE1D47028A00C1731D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5867FBC1D47028A00C1731D /* LaunchScreen.storyboard */; };
 		C5867FC91D47028A00C1731D /* GDMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5867FC81D47028A00C1731D /* GDMapTests.m */; };
 		C5867FD41D47028A00C1731D /* GDMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5867FD31D47028A00C1731D /* GDMapUITests.m */; };
+		C5EB00AB1D47C771006BD2AA /* userPosition.png in Resources */ = {isa = PBXBuildFile; fileRef = C5EB00A91D47C771006BD2AA /* userPosition.png */; };
+		C5EB00AC1D47C771006BD2AA /* userPosition@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5EB00AA1D47C771006BD2AA /* userPosition@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20760EA17CCD1DBB9F552D59 /* Pods-GDMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDMapUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDMapUITests/Pods-GDMapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CC9C8A77C9C38859BB79FF7 /* libPods-GDMapUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GDMapUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD28AD54C680E8CA8AE7272 /* libPods-GDMapTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GDMapTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96817F9A81292F55F416B230 /* Pods-GDMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDMapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDMapTests/Pods-GDMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		C55787D81D479F0800DB67D6 /* MapSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapSearchViewController.h; sourceTree = "<group>"; };
+		C55787D91D479F0800DB67D6 /* MapSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapSearchViewController.m; sourceTree = "<group>"; };
+		C55787DA1D479F0800DB67D6 /* MapSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapSearchViewController.xib; sourceTree = "<group>"; };
 		C5867FAB1D47028A00C1731D /* GDMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5867FAF1D47028A00C1731D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5867FB11D47028A00C1731D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +65,13 @@
 		C5867FCF1D47028A00C1731D /* GDMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5867FD31D47028A00C1731D /* GDMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDMapUITests.m; sourceTree = "<group>"; };
 		C5867FD51D47028A00C1731D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5EB00A91D47C771006BD2AA /* userPosition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userPosition.png; sourceTree = "<group>"; };
+		C5EB00AA1D47C771006BD2AA /* userPosition@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userPosition@2x.png"; sourceTree = "<group>"; };
+		C69C04C708E139BBBE45FB1F /* Pods-GDMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDMap/Pods-GDMap.debug.xcconfig"; sourceTree = "<group>"; };
+		C833FB8FD64B8C27B496FD22 /* Pods-GDMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDMapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDMapTests/Pods-GDMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0700F75B7D71A9F0432DABB /* libPods-GDMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GDMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F939AE30DA79A925AC42C5F4 /* Pods-GDMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDMap/Pods-GDMap.release.xcconfig"; sourceTree = "<group>"; };
+		FE4A0F8FF56A7FB2F56172D1 /* Pods-GDMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDMapUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDMapUITests/Pods-GDMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44E2382FF360A601F4AD40BF /* libPods-GDMap.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67C610B2828EC3F59517E438 /* libPods-GDMapTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +95,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E1312AD62B33D8BA22C4073 /* libPods-GDMapUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BDBBD895FF18D3F8F3C6529 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C69C04C708E139BBBE45FB1F /* Pods-GDMap.debug.xcconfig */,
+				F939AE30DA79A925AC42C5F4 /* Pods-GDMap.release.xcconfig */,
+				C833FB8FD64B8C27B496FD22 /* Pods-GDMapTests.debug.xcconfig */,
+				96817F9A81292F55F416B230 /* Pods-GDMapTests.release.xcconfig */,
+				FE4A0F8FF56A7FB2F56172D1 /* Pods-GDMapUITests.debug.xcconfig */,
+				20760EA17CCD1DBB9F552D59 /* Pods-GDMapUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		497B79803CA9FA4B220E5EA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0700F75B7D71A9F0432DABB /* libPods-GDMap.a */,
+				5BD28AD54C680E8CA8AE7272 /* libPods-GDMapTests.a */,
+				2CC9C8A77C9C38859BB79FF7 /* libPods-GDMapUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C5867FA21D47028A00C1731D = {
 			isa = PBXGroup;
 			children = (
+				C5EB00A91D47C771006BD2AA /* userPosition.png */,
+				C5EB00AA1D47C771006BD2AA /* userPosition@2x.png */,
 				C5867FAD1D47028A00C1731D /* GDMap */,
 				C5867FC71D47028A00C1731D /* GDMapTests */,
 				C5867FD21D47028A00C1731D /* GDMapUITests */,
 				C5867FAC1D47028A00C1731D /* Products */,
+				0BDBBD895FF18D3F8F3C6529 /* Pods */,
+				497B79803CA9FA4B220E5EA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +156,9 @@
 				C5867FB21D47028A00C1731D /* AppDelegate.m */,
 				C5867FB41D47028A00C1731D /* ViewController.h */,
 				C5867FB51D47028A00C1731D /* ViewController.m */,
+				C55787D81D479F0800DB67D6 /* MapSearchViewController.h */,
+				C55787D91D479F0800DB67D6 /* MapSearchViewController.m */,
+				C55787DA1D479F0800DB67D6 /* MapSearchViewController.xib */,
 				C5867FB71D47028A00C1731D /* Main.storyboard */,
 				C5867FBA1D47028A00C1731D /* Assets.xcassets */,
 				C5867FBC1D47028A00C1731D /* LaunchScreen.storyboard */,
@@ -147,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5867FD81D47028A00C1731D /* Build configuration list for PBXNativeTarget "GDMap" */;
 			buildPhases = (
+				2E47FA4833595C691A6CF078 /* [CP] Check Pods Manifest.lock */,
 				C5867FA71D47028A00C1731D /* Sources */,
 				C5867FA81D47028A00C1731D /* Frameworks */,
 				C5867FA91D47028A00C1731D /* Resources */,
+				12EE364335F75BFCF357BF64 /* [CP] Embed Pods Frameworks */,
+				A2E534FF263FC3A701CB529A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5867FDB1D47028A00C1731D /* Build configuration list for PBXNativeTarget "GDMapTests" */;
 			buildPhases = (
+				567C12A7BD01B6585100A862 /* [CP] Check Pods Manifest.lock */,
 				C5867FC01D47028A00C1731D /* Sources */,
 				C5867FC11D47028A00C1731D /* Frameworks */,
 				C5867FC21D47028A00C1731D /* Resources */,
+				A01EA4EDEE001D28230FECBF /* [CP] Embed Pods Frameworks */,
+				A2655CE566793D9A00477FFC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5867FDE1D47028A00C1731D /* Build configuration list for PBXNativeTarget "GDMapUITests" */;
 			buildPhases = (
+				E413A787319E6691C740EF68 /* [CP] Check Pods Manifest.lock */,
 				C5867FCB1D47028A00C1731D /* Sources */,
 				C5867FCC1D47028A00C1731D /* Frameworks */,
 				C5867FCD1D47028A00C1731D /* Resources */,
+				D4C05EBB78A30FF323247A1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +269,14 @@
 				TargetAttributes = {
 					C5867FAA1D47028A00C1731D = {
 						CreatedOnToolsVersion = 7.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					C5867FC31D47028A00C1731D = {
 						CreatedOnToolsVersion = 7.2;
@@ -243,9 +313,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5EB00AB1D47C771006BD2AA /* userPosition.png in Resources */,
 				C5867FBE1D47028A00C1731D /* LaunchScreen.storyboard in Resources */,
+				C5EB00AC1D47C771006BD2AA /* userPosition@2x.png in Resources */,
 				C5867FBB1D47028A00C1731D /* Assets.xcassets in Resources */,
 				C5867FB91D47028A00C1731D /* Main.storyboard in Resources */,
+				C55787DC1D479F0800DB67D6 /* MapSearchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +338,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12EE364335F75BFCF357BF64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDMap/Pods-GDMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E47FA4833595C691A6CF078 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		567C12A7BD01B6585100A862 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A01EA4EDEE001D28230FECBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDMapTests/Pods-GDMapTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2655CE566793D9A00477FFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDMapTests/Pods-GDMapTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2E534FF263FC3A701CB529A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDMap/Pods-GDMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4C05EBB78A30FF323247A1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDMapUITests/Pods-GDMapUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E413A787319E6691C740EF68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C5867FA71D47028A00C1731D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -273,6 +469,7 @@
 				C5867FB61D47028A00C1731D /* ViewController.m in Sources */,
 				C5867FB31D47028A00C1731D /* AppDelegate.m in Sources */,
 				C5867FB01D47028A00C1731D /* main.m in Sources */,
+				C55787DB1D479F0800DB67D6 /* MapSearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,28 +608,39 @@
 		};
 		C5867FD91D47028A00C1731D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C69C04C708E139BBBE45FB1F /* Pods-GDMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GDMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fingerfive.GDMap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fingersfive.GDMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		C5867FDA1D47028A00C1731D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F939AE30DA79A925AC42C5F4 /* Pods-GDMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GDMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fingerfive.GDMap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fingersfive.GDMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		C5867FDC1D47028A00C1731D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C833FB8FD64B8C27B496FD22 /* Pods-GDMapTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GDMapTests/Info.plist;
@@ -445,6 +653,7 @@
 		};
 		C5867FDD1D47028A00C1731D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96817F9A81292F55F416B230 /* Pods-GDMapTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GDMapTests/Info.plist;
@@ -457,7 +666,12 @@
 		};
 		C5867FDF1D47028A00C1731D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4A0F8FF56A7FB2F56172D1 /* Pods-GDMapUITests.debug.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GDMapUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fingerfive.GDMapUITests;
@@ -469,7 +683,12 @@
 		};
 		C5867FE01D47028A00C1731D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20760EA17CCD1DBB9F552D59 /* Pods-GDMapUITests.release.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GDMapUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fingerfive.GDMapUITests;
@@ -498,6 +717,7 @@
 				C5867FDA1D47028A00C1731D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5867FDB1D47028A00C1731D /* Build configuration list for PBXNativeTarget "GDMapTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +726,7 @@
 				C5867FDD1D47028A00C1731D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5867FDE1D47028A00C1731D /* Build configuration list for PBXNativeTarget "GDMapUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +735,7 @@
 				C5867FE01D47028A00C1731D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
